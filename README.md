@@ -6,7 +6,9 @@ The first step is to compile uboot from here:
  https://github.com/mrfixit2001/rockchip-u-boot
 
 To compile that, use the below and replace <defconfig> with the defconfig file you're building for.
+ 
  make mrproper <defconfig> all
+
 
 An example defconfig file name is rock64-rk3328_defconfig.
 
