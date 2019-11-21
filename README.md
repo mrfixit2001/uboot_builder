@@ -2,6 +2,9 @@ This is a VERY simple repository.
 
 I've compiled and gathered all the files and tools required to create idbloader.img, trust.img, and uboot.img.
 
+mkimage binary was copied from the uboot source.
+loaderimage, rk33*, and trust_merger all were copied from rkbin.
+
 The first step is to compile uboot from here:
  https://github.com/mrfixit2001/rockchip-u-boot
 
