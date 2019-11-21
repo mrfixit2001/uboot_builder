@@ -5,9 +5,9 @@ I've compiled and gathered all the files and tools required to create idbloader.
 The first step is to compile uboot from here:
  https://github.com/mrfixit2001/rockchip-u-boot
 
-To compile that, use the below and replace <defconfig> with the defconfig file you're building for.
+To compile that, use the below and replace (DEFCONFIG) with the defconfig file you're building for.
  
- make mrproper <defconfig> all
+ make mrproper (DEFCONFIG) all
 
 
 An example defconfig file name is rock64-rk3328_defconfig.
