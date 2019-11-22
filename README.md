@@ -12,6 +12,8 @@ To compile that, use the below and replace (DEFCONFIG) with the defconfig file y
  
  make mrproper (DEFCONFIG) all
 
+If you are cross compiling (compiling uboot on a different arch than aarch64/arm64) then you will need to prefix the make command with something like the below and replace (PATH TO AARCH64 GNU TOOLCHAIN) with the actual path:
+CROSS_COMPILE=/(PATH TO AARCH64 GNU TOOLCHAIN)/aarch64-linux-gnu-
 
 An example defconfig file name is rock64-rk3328_defconfig.
 
