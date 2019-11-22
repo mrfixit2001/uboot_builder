@@ -15,4 +15,6 @@ To compile that, use the below and replace (DEFCONFIG) with the defconfig file y
 
 An example defconfig file name is rock64-rk3328_defconfig.
 
-Once compiled, you'll need the u-boot-dtb.bin file that's generated after it's compiled. Copy that into the rk3399 or rk3328 folder, whichever you compiled uboot for. Then run the make-uboot.sh script.
+Once compiled, you'll need the u-boot-dtb.bin file that's generated after it's compiled. Copy that into the rk3399 or rk3328 folder, whichever you compiled uboot for. Then run the make-uboot.sh script. That will generate idbloader.img, trust.img, and uboot.img.
+
+Then use upgrade_uboot.sh to write those 3 resulting files to the correct offsets.
