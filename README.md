@@ -5,6 +5,8 @@ I've compiled and gathered all the files and tools required to create idbloader.
 mkimage binary was copied from the uboot source.
 loaderimage, rk33*, and trust_merger all were copied from rkbin.
 
+NOTE: The majority of users cross-compile - so the tools provided in this repo are compiled to be run on x86_64. The instructions don't change if you're not cross compiling, but you won't be able to use the binaries in this repo and you'll need to compile them for whatever arch you want to run them on. 
+
 The first step is to compile uboot from here:
  https://github.com/mrfixit2001/rockchip-u-boot
 
